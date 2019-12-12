@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:background="@drawable/backsaree1"
+    tools:context=".CustomerLoginActivity">
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="255dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/amitsarilogo" />
+
+    <EditText
+        android:id="@+id/etLoginUsername"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter user name"
+        android:layout_marginLeft="5dp"
+        android:inputType="textPersonName"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etLoginPassword"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="162dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="255dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:hint="not_having_account"
+        android:textColor="#ccc" />
+
+    <Button
+        android:id="@+id/btnLoginRegister"
+        android:layout_width="162dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/custom_button"
+        android:text="Register"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>
